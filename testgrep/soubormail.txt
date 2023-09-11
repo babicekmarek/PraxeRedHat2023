@@ -1,0 +1,11 @@
+babicek.marek@purkynka.cz
+mail@mail.cz
+mail@mailcz
+a.b.@mail.cz
+.mail@mail.cz
+a@i.cz
+ba@.cz
+
+
+[marekbabicek@fedora testgrep]$ grep -E ^[[:alnum:]]+[[:alnum:]\.]*@[[:alnum:]]+\.[[:alnum:]]+ soubormail.txt
+
