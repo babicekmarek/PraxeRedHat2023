@@ -3,9 +3,9 @@ class soubor:
         self.file = file
 
     def otevrit(self) -> str:
-        with open(selfself..file, encoding="utf-8") as soubor:
+        with open(self.file, encoding="utf-8") as soubor:
             obsah = soubor.read()
-        return obsah
+            return obsah
 
 file =  soubor ("file.txt")
 print(file.otevrit())
