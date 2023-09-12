@@ -41,7 +41,7 @@ jobs:
         
       # pridana funkcnost
       - name: mujtest2
-        run: ./pythonUnitTestReversedtext.py
+        run: python3 pythonUnitTestReversedtext.py
 
       
 
