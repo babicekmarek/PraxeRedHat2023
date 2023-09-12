@@ -43,6 +43,9 @@ jobs:
       - name: mujtest2
         run: python3 pythonUnitTestReversedtext.py
 
+      # trojuhelnik
+      - name: mujtest3
+        run: python3 obsahTrojuhelnikuTest.py
       
 
         
