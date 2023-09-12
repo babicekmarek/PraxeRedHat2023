@@ -2,7 +2,6 @@ import unittest
 import reverseText
 
 class Testing(unittest.TestCase):
-
     def test(self):
         self.assertEqual(reverseText.reverseText("text"), 'txet')
 
