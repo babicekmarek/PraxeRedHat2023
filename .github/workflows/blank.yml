@@ -35,6 +35,16 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
   
-      # pridana funkcnost
+      # pridana funkcnost# pridana funkcnost
       - name: mujtest1
         run: ./test.sh
+        
+      # pridana funkcnost
+      - name: mujtest2
+        run: ./pythonUnitTestReversedtext.py
+
+      
+
+        
+
+      
